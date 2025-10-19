@@ -86,6 +86,7 @@ ol li {
 
     p,
     a,
+    ul li,
     ol li {
         font-size: 18px;
     }
