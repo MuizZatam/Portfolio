@@ -95,6 +95,10 @@ ol li {
     section {
         padding: 15px 20px;
     }
+
+    html body {
+        background-size: 200%;
+    }
 }
 
 @media (max-width: 360px) {
