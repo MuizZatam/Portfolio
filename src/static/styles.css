@@ -8,8 +8,9 @@
 }
 
 body {
-    color: #fffcf2;
+    background-color: #183a37;
     background-image: url(./back.svg);
+    color: #efd6ac;
     padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
@@ -53,13 +54,13 @@ li {
 
 a {
     font-size: 22px;
-    color: #fffcf2;
+    color: #efd6ac;
     text-decoration: none;
     transition: color 0.4s;
 }
 
 a:hover {
-    color: #eb5e28;
+    color: #c44900;
 }
 
 ol {
@@ -81,17 +82,23 @@ ol li {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     p,
     a,
     ul li,
     ol li {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     section {
         padding: 15px 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    a {
+        font-size: 12px;
     }
 }
